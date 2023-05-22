@@ -11,3 +11,4 @@ _exclude:
     - "copier.yaml"
     - "copier.yml"
     - "README.md"
+    - ".git"
