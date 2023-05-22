@@ -7,3 +7,8 @@ project_slug:
     type: str
     help: What is your project slug?
     placeholder: my_project
+
+_exclude:
+    - "copier.yaml"
+    - "copier.yml"
+    - "README.md"
