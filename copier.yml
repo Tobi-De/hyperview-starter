@@ -6,7 +6,7 @@ project_name:
 project_slug:
     type: str
     help: What is your project slug?
-    default: "{{project_name|lower|replace(' ', '_'))}}"
+    default: "{{project_name|lower|replace(' ', '_')}}"
 
 _exclude:
     - "copier.yaml"
