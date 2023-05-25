@@ -10,7 +10,7 @@ application_name:
 application_slug:
     type: str
     help: A slugified version of the application_name
-    default: "{{project_name|replace(' ', '_')}}"
+    default: "{{application_name|replace(' ', '_')}}"
 
 _exclude:
     - "copier.yaml"
