@@ -1,12 +1,16 @@
-project_name:
+directory_name:
     type: str
-    help: What is your project name?
-    default: mobile client
+    help: The name of the directory in which the files will be generated.
+    default: hyperview_client
 
-project_slug:
+application_name:
     type: str
-    help: What is your project slug?
-    default: "{{project_name|lower|replace(' ', '_')}}"
+    help: The application name, will be used as the name of the final binary file.
+
+application_slug:
+    type: str
+    help: A slugified version of the application_name
+    default: "{{project_name|replace(' ', '_')}}"
 
 _exclude:
     - "copier.yaml"
