@@ -1,7 +1,7 @@
 directory_name:
     type: str
     help: The name of the directory in which the files will be generated.
-    default: hyperview_client
+    default: mobile_client
 
 application_name:
     type: str
