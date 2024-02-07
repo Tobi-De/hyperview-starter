@@ -8,6 +8,6 @@ To use Hyperview Starter, you need to have [Copier](https://github.com/copier-or
 
 ```bash
 pip install copier
-copier gh:Tobi-De/hyperview_starter .
+copier gh:Tobi-De/hyperview-starter .
 ```
 
